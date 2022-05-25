@@ -76,7 +76,6 @@
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
@@ -93,7 +92,7 @@
     <ra:StartSuite ContinueOnError="{x:Null}" suiteList="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="334,85.3333333333333" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="in" />
     <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="334,85.3333333333333" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="in" />
     <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Checked out " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="in changing" Status="Compare" TakeScreenshot="True" />
-    <ui:ReadRow DisplayName="Read Row" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRow_1" Result="[Room]" SheetName="Search" StartingCell="A2" WorkbookPath="New folder\Config Files\Hotel App Assignment.xlsx" />
+    <ui:ReadRow DisplayName="Read Row" sap:VirtualizedContainerService.HintSize="334,86.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRow_1" Result="[Room]" SheetName="Sheet" StartingCell="A2" WorkbookPath="New folder\Config Files\Hotel App Assignment.xlsx" />
     <hl:search Adults="[Room(7).ToSTring]" Children="[Room(8).ToSTring]" Cin="[Room(5).ToSTring]" Cout="[Room(6).ToSTring]" sap:VirtualizedContainerService.HintSize="334,22" Hotels="[Room(2).ToSTring]" sap2010:WorkflowViewState.IdRef="search_1" Location="[Room(1).ToSTring]" Number="[Room(4).ToSTring]" Room="[Room(3).ToSTring]" />
   </Sequence>
 </Activity>
